@@ -1,6 +1,12 @@
 # Authentication Project - Backend
 
-![Java](https://img.shields.io/badge/Java-17-blue) ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-2.7.6-green) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-16-blue)
+<div align="center">
+
+<a href="https://project-task-management.onrender.com" target="_blank"><img src="https://img.shields.io/badge/-Deploy-%4DC71F?style=for-the-badge&logo=render&logoColor=white" target="_blank"></a>
+<img src="https://img.shields.io/badge/-Java-%23ED8B00?style=for-the-badge&logo=java&logoColor=white">
+<img src="https://img.shields.io/badge/-Spring-%236DB33F?style=for-the-badge&logo=spring&logoColor=white">
+
+</div>
 
 Este repositório contém a API backend do Authentication Project, um sistema de autenticação utilizando Spring Boot, JWT e PostgreSQL.
 
