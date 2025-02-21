@@ -6,6 +6,8 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+import java.time.LocalDateTime;
+
 @Getter
 @Setter
 @NoArgsConstructor
@@ -19,4 +21,10 @@ public class LoggedUserDTO {
 
     @Schema(description = "Email do usuário logado", example = "email@email.com")
     private String email;
+
+    @Schema(description = "Status do usuário logado", example = "true")
+    private boolean active;
+
+    @Schema(description = "Data da criação da conta do usuário logado", example = "01/01/2025 00:00:00")
+    private LocalDateTime createdAt;
 }

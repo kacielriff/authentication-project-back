@@ -186,7 +186,7 @@ public class UserService {
         User user = userRepository.findById(getIdLoggedUser())
                 .orElseThrow(() -> new NotFoundException("Usuário não encontrado."));
 
-        return new LoggedUserDTO(user.getId(), user.getName(), user.getEmail());
+        return new LoggedUserDTO(user.getId(), user.getName(), user.getEmail(), user.isActive(), user.getCreatedAt());
     }
 
     public Long getIdLoggedUser() {
