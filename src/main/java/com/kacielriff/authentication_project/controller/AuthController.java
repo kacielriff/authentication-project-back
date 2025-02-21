@@ -46,7 +46,7 @@ public class AuthController implements AuthControllerDocs {
         return new ResponseEntity<>(userService.confirmAccount(accountCreationValidationDTO), HttpStatus.OK);
     }
 
-    @GetMapping("/logged-user")
+    @GetMapping("/logged")
     public ResponseEntity<LoggedUserDTO> getLoggedUser() throws Exception {
         return new ResponseEntity<>(userService.getLoggedUser(), HttpStatus.OK);
     }

@@ -131,7 +131,7 @@ PUT /api/auth/change-password
 
 ### Informações do Usuário Autenticado
 ```http
-GET /api/auth/logged-user
+GET /api/auth/logged
 ```
 
 ---
